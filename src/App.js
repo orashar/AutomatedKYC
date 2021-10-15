@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import { useEffect, useRef } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { KYC } from './components/KYC';
 import { Home } from './components/Home';

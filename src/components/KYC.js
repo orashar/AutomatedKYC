@@ -120,7 +120,7 @@ export const KYC = (props) => {
                 <Row>
                     <Col><h3>Upload ID (jpg/png/jpeg)</h3></Col>
                     <Col><input type="file" onChange={changeFile} name="document" /></Col>
-                    <Col><img ref={idImgRef} src={idFile ? URL.createObjectURL(idFile) : null} width="200" height="200" /></Col>
+                    <Col><img alt="ID" ref={idImgRef} src={idFile ? URL.createObjectURL(idFile) : null} width="200" height="200" /></Col>
                 </Row>
                 <br/>
                 <Row>
